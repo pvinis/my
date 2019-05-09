@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# node
+**/node_modules/*
+
+# but keep these (useful for keeping empty folders)
+!.gitkeep

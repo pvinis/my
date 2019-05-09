@@ -1,0 +1,46 @@
+{
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineNumbers": "off",
+  "editor.renderIndentGuides": false,
+  "workbench.colorTheme": "Base16 Dark Eighties",
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "Fastfile": "ruby",
+    "Gemfile": "ruby",
+    "Pluginfile": "ruby",
+    ".solidarity": "json5"
+  },
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Iosevka, Menlo, Monaco, 'Courier New', monospace",
+  "npm.enableScriptExplorer": true,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "prettifySymbolsMode.substitutions": [
+    {
+      "language": ["typescript", { "pattern": "**/*.ts[x]" }],
+      "revealOn": "selection",
+      "substitutions": [
+        {
+          "ugly": ";",
+          "post": "$",
+          "pretty": " "
+        }
+      ]
+    }
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
