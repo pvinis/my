@@ -6,3 +6,4 @@
 **/.npmrc           filter=git-crypt diff=git-crypt
 **/.aws/credentials filter=git-crypt diff=git-crypt
 **/.config/hub      filter=git-crypt diff=git-crypt
+**/.ask/**          filter=git-crypt diff=git-crypt
