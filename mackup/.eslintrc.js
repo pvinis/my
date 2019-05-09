@@ -21,5 +21,6 @@ module.exports = {
         'semi': ['error', 'never'],
         'quotes': [2, 'single'   ],
         'comma-dangle': ['error', 'always-multiline'],
+        'object-curly-spacing': ['error', 'always'],
     },
 }
