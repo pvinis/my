@@ -1,5 +1,6 @@
 # taps
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 brew "mas"
 tap "pvinis/pvinis"
 
@@ -15,7 +16,7 @@ brew "trash"
 # brew "ag"
 #brew "fzf"
 
-# ruby 
+# ruby
 brew "chruby"
 brew "ruby-install"
 
@@ -52,12 +53,12 @@ cask "spotify"
 cask "steam"
 cask "vlc"
 #cask "tunnelblick"
-cask "caskroom/versions/dropbox-beta"
-#cask "caskroom/versions/firefox-beta"
-#cask "caskroom/versions/google-chrome-beta"
-cask "caskroom/versions/1password-beta"
-cask "caskroom/versions/airmail-beta"
-#cask "caskroom/versions/iterm2-nightly"
+cask "dropbox-beta"
+#cask "firefox-beta"
+#cask "google-chrome-beta"
+cask "1password-beta"
+cask "airmail-beta"
+#cask "iterm2-nightly"
 #cask "vnc-viewer"
 
 # fonts
