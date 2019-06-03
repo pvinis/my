@@ -1,9 +1,12 @@
 {
   "dependencies": {
+    "appcenter-cli": "^1.1.18",
+    "babel-eslint": "^10.0.1",
     "create-react-app": "*",
     "eslint": "*",
     "eslint-plugin-react": "*",
     "expo-cli": "*",
+    "nps": "^5.9.5",
     "react-native-cli": "*"
   }
 }
