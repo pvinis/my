@@ -3,11 +3,15 @@ module.exports = {
         es6: true,
         node: true,
     },
-    extends: 'eslint:recommended',
+    extends: [
+        'eslint:recommended',
+        'plugin:react/recommended',
+    ],
     globals: {
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
     },
+    parser: 'babel-eslint',
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
@@ -29,5 +33,7 @@ module.exports = {
         'no-multi-spaces': ['error', { 'ignoreEOLComments': true }], // has exceptions too, if needed
 
         'react/jsx-indent': ['error', 4],
+        'react/prop-types': 'off',
+        'react/jsx-space-before-closing': 'error',
     },
 }
