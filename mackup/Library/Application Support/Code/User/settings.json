@@ -21,7 +21,8 @@
     "typescriptreact"
   ],
   "editor.detectIndentation": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.fontFamily": "Iosevka, Menlo, Monaco, 'Courier New', monospace",
   "npm.enableScriptExplorer": true,
