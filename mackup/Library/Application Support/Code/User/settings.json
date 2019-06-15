@@ -24,7 +24,7 @@
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontFamily": "Iosevka, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Iosevka, SF Mono, Menlo, Monaco, 'Courier New', monospace",
   "npm.enableScriptExplorer": true,
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "right",
@@ -45,5 +45,5 @@
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
