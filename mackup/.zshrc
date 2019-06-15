@@ -34,6 +34,17 @@ kport() {
 
 alias krn='kport 8081'
 
+upgradeall() {
+	brew update
+	brew upgrade
+	brew cask upgrade
+}
+
+cleanupall() {
+	brew cleanup
+	yarn cache clean
+}
+
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
