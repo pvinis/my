@@ -6,7 +6,8 @@
     "eslint": "*",
     "eslint-plugin-react": "*",
     "expo-cli": "*",
-    "gatsby-cli": "^2.6.5",
+    "gatsby-cli": "*",
+    "ignite-cli": "*",
     "nps": "*",
     "react-native-cli": "*"
   }
