@@ -20,6 +20,8 @@ export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+
 
 # other
 fuck() { # lazy load fuck

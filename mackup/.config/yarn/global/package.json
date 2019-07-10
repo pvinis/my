@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@react-native-community/cli": "*",
     "appcenter-cli": "*",
     "babel-eslint": "*",
     "create-react-app": "*",
@@ -8,7 +9,6 @@
     "expo-cli": "*",
     "gatsby-cli": "*",
     "ignite-cli": "*",
-    "nps": "*",
-    "react-native-cli": "*"
+    "nps": "*"
   }
 }
