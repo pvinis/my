@@ -99,6 +99,9 @@ setopt promptsubst
 if ! env | grep -q '^PS1='; then
   PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info) %# '
 fi
+PROMPT='
+%B%F{red}┌──[ %~%F
+└──>%b%f '
 
 # makes color constants available
 autoload -U colors
