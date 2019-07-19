@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@react-native-community/cli": "*",
     "appcenter-cli": "*",
     "babel-eslint": "*",
     "create-react-app": "*",
