@@ -1,7 +1,7 @@
 ---
-doing_file: "~/Dropbox/what_was_i_doing.md"
+doing_file: "~/Dropbox/Notes/what_was_i_doing.md"
 current_section: Currently
-editor_app: 
+editor_app: code
 templates:
   default:
     date_format: "%Y-%m-%d %H:%M"
