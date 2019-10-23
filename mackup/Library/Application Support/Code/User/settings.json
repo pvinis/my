@@ -9,7 +9,7 @@
     "Fastfile": "ruby",
     "Gemfile": "ruby",
     "Pluginfile": "ruby",
-    ".solidarity": "json5"
+    ".solidarity": "json5",
   },
   "eslint.enable": true,
   "eslint.packageManager": "yarn",
@@ -18,7 +18,9 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "markdown",
+    "markdownreact",
   ],
   "editor.detectIndentation": true,
   "editor.minimap.enabled": true,
@@ -45,5 +47,8 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+"window.zoomLevel": 0,
+"editor.insertSpaces": false,
+"prettier.bracketSpacing": false,
+"workbench.colorCustomizations": {},
 }

@@ -8,6 +8,8 @@ base16_eighties
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+export BROWSER=firefox
+
 export GPG_TTY=$(tty)
 
 # setup nodenv
@@ -146,3 +148,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 autoload -U edit-command-line
 zle -N edit-command-line
 bindkey '^x^x' edit-command-line
+

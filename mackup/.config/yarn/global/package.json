@@ -1,13 +1,19 @@
 {
   "dependencies": {
+    "@sanity/cli": "*",
     "appcenter-cli": "*",
     "babel-eslint": "*",
     "create-react-app": "*",
+    "detox-cli": "*",
+    "dts-gen": "*",
     "eslint": "*",
     "eslint-plugin-react": "*",
     "expo-cli": "*",
     "gatsby-cli": "*",
+    "gcalendar-cli": "*",
+    "gitpkg": "^1.0.0-beta.1",
     "ignite-cli": "*",
+    "ngrok": "*",
     "nps": "*"
   }
 }
