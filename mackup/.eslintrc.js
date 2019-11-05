@@ -1,3 +1,6 @@
+const OFF = 0
+const WARN = 1
+const ERR = 2
 module.exports = {
     env: {
         es6: true,
@@ -21,19 +24,19 @@ module.exports = {
     },
     plugins: ['react'],
     rules: {
-        'no-unused-vars': 'off',
-        semi: ['error', 'never'],
-        quotes: ['error', 'single'],
-        'comma-dangle': ['error', 'always-multiline'],
-        'object-curly-spacing': ['error', 'always'],
-        'key-spacing': ['error'],
-        indent: ['error', 4],
-        'no-console': 'off',
-        'arrow-spacing': ['error'],
-        'no-multi-spaces': ['error', { 'ignoreEOLComments': true }], // has exceptions too, if needed
+        'no-unused-vars': OFF,
+        semi: [ERR, 'never'],
+        quotes: [ERR, 'single'],
+        'comma-dangle': [ERR, 'always-multiline'],
+        'object-curly-spacing': [ERR, 'always'],
+        'key-spacing': ERR,
+        indent: [ERR, 'tab'],
+        'no-console': OFF,
+        'arrow-spacing': ERR,
+        'no-multi-spaces': [ERR, { 'ignoreEOLComments': true }], // has exceptions too, if needed
 
-        'react/jsx-indent': ['error', 4],
-        'react/prop-types': 'off',
-        'react/jsx-space-before-closing': 'error',
+        'react/jsx-indent': [ERR, 4],
+        'react/prop-types': OFF,
+        'react/jsx-space-before-closing': ERR,
     },
 }

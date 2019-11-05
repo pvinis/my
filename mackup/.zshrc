@@ -47,6 +47,7 @@ upgradeall() {
 cleanupall() {
 	brew cleanup
 	yarn cache clean
+	rm -rf ~/Library/Developer/Xcode/DerivedData
 }
 
 source /usr/local/share/chruby/chruby.sh
