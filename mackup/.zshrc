@@ -12,8 +12,12 @@ export BROWSER=firefox
 
 export GPG_TTY=$(tty)
 
+# setup asdf
+. $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
+
 # setup nodenv
-eval "$(nodenv init -)"
+# eval "$(nodenv init -)"
 
 # extra paths
 export PATH="$HOME/.fastlane/bin:$PATH"
@@ -50,8 +54,8 @@ cleanupall() {
 	rm -rf ~/Library/Developer/Xcode/DerivedData
 }
 
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+# source /usr/local/share/chruby/chruby.sh
+# source /usr/local/share/chruby/auto.sh
 
 # aliases
 
@@ -63,8 +67,13 @@ alias at='adb shell input keyevent 82'
 alias git='hub'
 
 # completion
-autoload -U compinit
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
+autoload -Uz compinit
 compinit
+
 
 # no args: git status
 # with args: git `args`
@@ -149,4 +158,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 autoload -U edit-command-line
 zle -N edit-command-line
 bindkey '^x^x' edit-command-line
-
