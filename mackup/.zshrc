@@ -12,10 +12,6 @@ export BROWSER=firefox
 
 export GPG_TTY=$(tty)
 
-# setup asdf
-. $(brew --prefix asdf)/asdf.sh
-. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
-
 # setup nodenv
 # eval "$(nodenv init -)"
 
@@ -74,6 +70,10 @@ fi
 autoload -Uz compinit
 compinit
 
+# setup asdf
+# $(brew --prefix asdf) = /usr/local/opt/asdf
+. /usr/local/opt/asdf/asdf.sh
+. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 
 # no args: git status
 # with args: git `args`
