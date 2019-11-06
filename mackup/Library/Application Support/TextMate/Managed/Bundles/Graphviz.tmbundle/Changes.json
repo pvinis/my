@@ -1,0 +1,1 @@
+{"commits":[{"commit":"d1d489f893a0e6ef5d9021bf7dc1ffd08b3f9b90","date":"2015-06-03T16:57:11-03:00","author":"Juande Santander-Vela","summary":"Correct typo in graph template","body":"Added a short dash before &gt; so that the template compiles directly."}],"name":"Graphviz"}
