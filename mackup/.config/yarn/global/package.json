@@ -12,7 +12,7 @@
     "expo-cli": "*",
     "gatsby-cli": "*",
     "gcalendar-cli": "*",
-    "gitpkg": "1.0.0-beta.1",
+    "gitpkg": "1.0.0-beta.4",
     "ignite-cli": "*",
     "ngrok": "*",
     "nps": "*"
